@@ -1,10 +1,241 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-<title>GLOVEA Naturals</title>
-</head>
-<body>
-<h1>GLOVEA Naturals</h1>
-<p>Welcome to GLOVEA Naturals</p>
-</body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLOVEA Naturals</title><style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fafaf7;
+color:#222;
+}
+
+header{
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+position:sticky;
+top:0;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo-circle{
+width:50px;
+height:50px;
+border-radius:50%;
+background:#2f7d32;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-weight:bold;
+}
+
+.logo h2{
+color:#2f7d32;
+}
+
+nav a{
+text-decoration:none;
+margin-left:20px;
+color:#333;
+font-weight:bold;
+}
+
+.hero{
+padding:90px 20px;
+text-align:center;
+background:linear-gradient(135deg,#edf7ed,#fff9e6);
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:15px;
+color:#1b5e20;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+font-size:1.1rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:#2f7d32;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.section{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.3rem;
+margin-bottom:40px;
+color:#1b5e20;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#2f7d32;
+}
+
+.card ul{
+padding-left:20px;
+}
+
+.card li{
+margin:10px 0;
+}
+
+.about{
+background:white;
+border-radius:20px;
+padding:40px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+line-height:1.8;
+}
+
+.combo{
+background:#2f7d32;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.combo h2{
+margin-bottom:15px;
+font-size:2rem;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact-box{
+background:white;
+padding:35px;
+border-radius:18px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+max-width:700px;
+margin:auto;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:15px;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:2.2rem;
+}
+
+}
+</style></head><body><header><div class="logo">
+<div class="logo-circle">G</div>
+<h2>GLOVEA Naturals</h2>
+</div><nav>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#combo">Combo</a>
+<a href="#contact">Contact</a>
+</nav></header><section class="hero"><h1>Pure Ayurveda. Healthy Skin. Real Confidence.</h1><p>
+Welcome to GLOVEA Naturals. We believe everyone deserves healthy,
+radiant and naturally beautiful skin. Inspired by traditional
+herbal wisdom and crafted with care.
+</p><a class="btn" href="#products">Explore Products</a>
+
+</section><section id="about" class="section"><h2 class="section-title">About GLOVEA</h2><div class="about">
+At GLOVEA Naturals, our mission is simple — make herbal skincare
+accessible, affordable and trustworthy. Our products are inspired
+by nature and created to support healthy looking skin with carefully
+selected ingredients.
+<br><br>
+Website and product catalogue are currently under development.
+More products, pricing, reviews and ordering options will be added soon.
+</div></section><section id="products" class="section"><h2 class="section-title">Our Herbal Face Packs</h2><div class="products"><div class="card">
+<h3>🌹 Rose + Multani Mitti</h3>
+<ul>
+<li>Natural Glow</li>
+<li>Refreshing Feel</li>
+<li>Supports Soft Looking Skin</li>
+<li>Perfect for Daily Care</li>
+</ul>
+</div><div class="card">
+<h3>🌿 Neem + Multani Mitti</h3>
+<ul>
+<li>Fresh Feeling Skin</li>
+<li>Helps Control Excess Oil</li>
+<li>Supports Clear Looking Skin</li>
+<li>Daily Herbal Care</li>
+</ul>
+</div><div class="card">
+<h3>🌳 Sandalwood + Multani Mitti</h3>
+<ul>
+<li>Cooling Experience</li>
+<li>Even Looking Complexion</li>
+<li>Smooth Skin Feel</li>
+<li>Premium Herbal Care</li>
+</ul>
+</div></div></section><section id="combo" class="combo"><h2>GLOVEA Complete Herbal Combo</h2><p>
+Rose + Neem + Sandalwood Face Packs
+<br><br>
+Pricing Coming Soon
+</p></section><section id="contact" class="section contact"><h2 class="section-title">Contact Us</h2><div class="contact-box"><h3>GLOVEA Naturals</h3><br><p>Email:</p><p><b>gloveaateam@gmail.com</b></p><br><p>
+For partnerships, support, dealership enquiries and business discussions,
+feel free to contact us.
+</p></div></section><footer>
+© 2026 GLOVEA Naturals • Nature's Care For Every Skin
+</footer></body>
 </html>
